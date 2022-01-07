@@ -1,9 +1,8 @@
 import numpy as np
 from scipy.optimize import curve_fit
 import math
+
 '''class with methods to detect seeds and grow them according to parameters of the class'''
-
-
 class LineDetector:
     def __init__(self):
         self.EPSILON = 25  # maximum distance from any point to the fit line
